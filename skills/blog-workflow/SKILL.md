@@ -59,6 +59,18 @@ tags:
 
 Omit optional `project`, `series`, and `order` rather than filling meaningless values. New content must start with `draft: true`.
 
+## Visual storytelling
+
+For substantial technical articles, design visuals as part of the explanation rather than decoration:
+
+- Start from the reader's core question, then choose diagrams that expose mechanism, contrast, boundaries, examples, and evaluation.
+- Prefer original architecture diagrams, comparison matrices, decision trees, experiment charts, and data visualizations.
+- Paper figures may be reused only after checking their license or permission; preserve attribution and link the original source. Otherwise redraw the concept in an original visual language and cite the source that informed it.
+- When an image-generation tool is available, use it for conceptual covers or illustrations, not for diagrams containing precise labels, code, measurements, or logical relationships.
+- Every image needs useful alt text and, when appropriate, a caption that explains what the reader should notice.
+- Keep assets portable using the co-located relative-path rule above.
+- Do not add a fixed number of images mechanically; each visual must reduce explanation cost or reveal a relationship more clearly than prose.
+
 ## Phase: draft
 
 Input may be a topic, pasted material, one Markdown file, or several files.
