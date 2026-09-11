@@ -36,7 +36,7 @@ Use stable English kebab-case for directories and filenames. Chinese titles and 
 - `project`: implementation logs, experiments, decisions, retrospectives
 - `thought`: personal reflections and arguments
 
-Store article images under `public/images/<article-slug>/` and reference them as `/images/<article-slug>/<file>`.
+Store article images next to the Markdown file in `<article-slug>-assets/` and reference them with portable relative Markdown syntax, for example `![说明](./<article-slug>-assets/diagram.svg)`. Do not use site-root `/images/...` paths or raw HTML `<img>` tags: the same source must render in Obsidian, GitHub Markdown, and Astro.
 
 ## Required frontmatter
 
