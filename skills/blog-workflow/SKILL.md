@@ -1,6 +1,6 @@
 ---
 name: blog-workflow
-description: Manage the Learn Everything blog writing workflow: turn a topic or Markdown source into a categorized draft, review its quality, prepare local preview, and publish only after explicit user approval. Use when the user asks to organize notes, generate a blog Markdown article, preview a draft, or publish to bailixisu.com.
+description: "Manage the Learn Everything blog writing workflow: turn a topic or Markdown source into a categorized draft, review its quality, prepare local preview, and publish only after explicit user approval. Use when the user asks to organize notes, generate a blog Markdown article, preview a draft, or publish to bailixisu.com."
 compatibility: Requires Node.js, npm, git, and the Learn Everything repository.
 ---
 
